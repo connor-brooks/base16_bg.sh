@@ -9,23 +9,23 @@ This is a very simple script which extracts the background color from base16 ter
 * imagemagick
 * feh
 ## Instructions 
-* Grab the script:
+Grab the script:
 
 `git clone https://github.com/connor-brooks/base16_bg.sh.git`
 
-* Move it to a hidden folder in your home directory:
+Move it to a hidden folder in your home directory:
 
 `mv base16_bg.sh ~/.base16_bg`
 
-* Add the following to you .bashrc:
+Add the following to you .bashrc:
 
 `PATH=$PATH:~/.base16_bg`
 
-* Add this to your .xinitrc, to set the background at login (Optional):
+Add this to your .xinitrc, to set the background at login (Optional):
 
 `feh --bg-scale ~/.base16_bg.png`
 
-* Whenever you change to another base16 theme, just the following to update your background: 
+Whenever you change to another base16 theme, just the following to update your background: 
 
 `base16_bg.sh`
 
