@@ -1,0 +1,10 @@
+--- profile_helper.sh.bak	2019-06-22 16:56:36.907582361 +0100
++++ profile_helper.sh	2019-06-22 16:58:07.399579687 +0100
+@@ -27,6 +27,7 @@
+       [ -f "$hook" ] && [ -x "$hook" ] && "$hook"
+     done
+   fi
++  ~/.config/base16-shell/base16_bg.sh;
+ }
+ FUNC
+ for script in $script_dir/scripts/base16*.sh; do
