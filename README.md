@@ -20,6 +20,8 @@ Move the script and patch to your base16 folder:
 
 Apply the patch to base16-shell:
 
+`cd ~/.config/base16-shell`
+
 `patch < patch.diff`
 
 Delete the patch file:
